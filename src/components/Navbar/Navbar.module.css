@@ -1,0 +1,118 @@
+.navbarContainer {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 18px;
+  width: 100%;
+}
+
+.logo {
+  width: 250px;
+}
+
+.link {
+  text-decoration: none;
+  color: #7f7f95;
+  font-size: 16px;
+  margin: 0px 16px;
+}
+
+.link:hover {
+  color: #2d3236;
+}
+
+.button {
+  background-color: #eecb61;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: black;
+}
+
+.burger {
+  display: none;
+  font-size: 32px;
+  color: #363636;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #dfbb50;
+}
+.mobileLinksContainer {
+  display: none;
+  padding-top: 8px;
+}
+
+.mobileLink {
+  margin: 8px 0px;
+  text-decoration: none;
+  color: #7f7f95;
+}
+
+.mobileLink:hover {
+  color: #2d3236;
+}
+
+.mobileButton {
+  background-color: #eecb61;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  color: white;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: black;
+}
+.mobileButton:hover {
+  background-color: #dfbb50;
+  cursor: pointer;
+}
+
+.horizontal {
+  width: 100%;
+  margin-top: 8px;
+  color: #404040;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .linksContainer {
+    display: none;
+  }
+  .buttonContainer {
+    display: none;
+  }
+
+  .container {
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+  }
+  .burger {
+    display: block;
+  }
+  .burger:hover {
+    cursor: pointer;
+  }
+  .mobileLinksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 94%;
+    margin: 12px auto;
+  }
+}

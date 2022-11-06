@@ -1,0 +1,118 @@
+.homePageContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  margin-top: 2.5%;
+}
+
+.left {
+  max-width: 40%;
+  margin-top: 5%;
+}
+
+.satisfaction {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #eecb61;
+  margin: 0px;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 52px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  line-height: 82px;
+  position: relative;
+}
+
+.title span {
+  font-weight: 600;
+}
+.description {
+  font-size: 18px;
+  color: #a9a9a9;
+}
+
+.button {
+  background-color: #eecb61;
+  border: none;
+  border-radius: 12px;
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 14px;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+
+.blue {
+  background-color: #3965f7;
+  color: white;
+  margin-left: 12px;
+}
+
+.right {
+  max-width: 40%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+}
+
+.image {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+#firstImage {
+  border-radius: 1000px;
+}
+
+#lastImage {
+  border-radius: 0px 100px 100px 0px;
+}
+
+.dot {
+  border-radius: 1000px;
+  position: absolute;
+}
+
+.blueDot {
+  background-color: #598dd5;
+  width: 25px;
+  height: 25px;
+  top: 0px;
+  right: -50px;
+}
+
+.yellowDot {
+  background-color: #eecb61;
+  width: 200px;
+  height: 200px;
+  top: -25px;
+  left: -50px;
+  z-index: -1;
+}
+
+.smallPinkLeft {
+  background-color: #f7b6d2;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+  left: -75px;
+}
+
+.smallPinkRight {
+  background-color: #f7b6d2;
+  width: 25px;
+  height: 25px;
+  bottom: 300px;
+  right: -75px;
+}
