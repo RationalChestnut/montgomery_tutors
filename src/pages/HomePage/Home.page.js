@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Home.module.css";
 
-import pink from "../assets/pink.jpg";
-import white from "../assets/white.jpeg";
-import blue from "../assets/blue.png";
-import yellow from "../assets/yellow.jpg";
+import pink from "../../assets/pink.jpg";
+import white from "../../assets/white.jpeg";
+import blue from "../../assets/blue.png";
+import yellow from "../../assets/yellow.jpg";
 
 export const Home = () => {
   return (

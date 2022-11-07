@@ -49,10 +49,30 @@
   align-items: center;
   flex-wrap: wrap;
   margin-top: 40px;
+  padding-bottom: 42px;
 }
 
 .card {
   height: 400px;
   width: 400px;
   background-color: white;
+}
+
+.customDividerContainer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.customDividerContainer svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.customDividerContainer .shapeFill {
+  fill: #f8fbfc;
 }

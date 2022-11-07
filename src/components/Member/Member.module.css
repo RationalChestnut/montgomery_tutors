@@ -1,0 +1,44 @@
+.memberContainer {
+  border: 1px solid #dfdfdf;
+  width: 300px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 10px;
+  margin: 15px;
+}
+
+.tagContainer {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.tag {
+  padding: 6px;
+  margin: 0px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.memberImage {
+  width: 125px;
+  height: 125px;
+  border-radius: 1000px;
+  object-fit: cover;
+  object-position: 0px 10%;
+  margin-bottom: 20px;
+}
+
+.name {
+  color: #eecb61;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}

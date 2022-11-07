@@ -1,6 +1,7 @@
-import { Benefits } from "./BenefitsPage/Benefits.page";
+import { Benefits } from "./pages/BenefitsPage/Benefits.page";
 import Navbar from "./components/Navbar/Navbar.components";
-import { Home } from "./HomePage/Home.page";
+import { Home } from "./pages/HomePage/Home.page";
+import { Team } from "./pages/TeamPage/TeamPage.page";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Home />
       <Benefits />
+      <Team />
     </div>
   );
 }
