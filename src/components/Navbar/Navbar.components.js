@@ -23,15 +23,14 @@ const Navbar = () => {
               About Us
             </a>
             <a href="#" className={styles.link}>
-              Contact Us
+              Meet the Team
             </a>
           </div>
-
-          <div className={styles.buttonContainer}>
-            <a href="#" target="_blank" rel="noreferrer">
-              <button className={styles.button}>Schedule a session</button>
-            </a>
-          </div>
+        </div>
+        <div className={styles.buttonContainer}>
+          <a href="#" target="_blank" rel="noreferrer">
+            <button className={styles.button}>Schedule a session</button>
+          </a>
         </div>
 
         <GiHamburgerMenu
