@@ -130,3 +130,8 @@
   border: 1px solid #e1dfec;
   outline: none;
 }
+
+.mainList li {
+  margin: 4px 0px;
+  font-size: 20px;
+}

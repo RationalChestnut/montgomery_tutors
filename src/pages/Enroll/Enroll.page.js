@@ -38,6 +38,17 @@ export const Enroll = () => {
             <MdEmail className={styles.icon} />
             <p>brian.kw.mason@gmail.com</p>
           </div>
+          <h2 className={styles.contactInformationTitle}>Prices</h2>
+          <ul className={styles.mainList}>
+            <li>General Tutoring: $35 per hour</li>
+            <li>
+              Sports coaching:
+              <ul>
+                <li>Individual lesson: $40 per hour</li>
+                <li>Group lesson: $25 per child</li>
+              </ul>
+            </li>
+          </ul>
         </div>
         <div className={styles.formContainer}>
           <form
