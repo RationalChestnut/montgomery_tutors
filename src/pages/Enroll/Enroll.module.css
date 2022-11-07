@@ -1,0 +1,132 @@
+.contactPageContainer {
+  margin-top: 100px;
+  padding: 5% 18%;
+  background-color: #f8fbfc;
+  position: relative;
+}
+
+.contactFormContainer {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  padding: 6px;
+  border-radius: 14px;
+}
+
+.contactInfo {
+  background-color: #eecb61;
+  padding: 22px 32px;
+  border-radius: 14px;
+  color: black;
+  width: 100%;
+}
+
+.formDescription {
+  color: black;
+  max-width: 90%;
+  line-height: 24px;
+}
+
+.contactInformationTitle {
+  color: black;
+  font-weight: 600;
+}
+
+.contactTitle {
+  text-align: center;
+  color: #060747;
+}
+.contactSubDescription {
+  text-align: center;
+  color: #7f7f95;
+}
+
+.contactMethod {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 20px;
+  padding-right: 16px;
+  color: black;
+}
+
+.formContainer {
+  padding: 22px 32px;
+  width: 100%;
+  height: 100%;
+}
+
+.textInput {
+  width: 90%;
+  padding: 12px 22px;
+  border-radius: 22px;
+  border: 1px solid #e1dfec;
+  outline: none;
+}
+
+.formSection {
+  padding-bottom: 6px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.textInput:hover {
+  border-color: #eecb61;
+  transition: 0.5s;
+}
+
+.textarea {
+  resize: none;
+  font-family: "Inter", sans-serif;
+  height: 50px;
+  border-radius: 16px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 16px 32px;
+  border-radius: 22px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #eecb61;
+  margin-top: 12px;
+}
+
+.submitButton:hover {
+  background-color: #dfbb50;
+  cursor: pointer;
+}
+
+.customShapeDividerTop {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.customShapeDividerTop svg {
+  position: relative;
+  display: block;
+  width: calc(107% + 1.3px);
+  height: 215px;
+}
+
+.customShapeDividerTop .shapeFill {
+  fill: white;
+}
+
+.select {
+  width: 100%;
+  padding: 12px 22px;
+  border-radius: 22px;
+  border: 1px solid #e1dfec;
+  outline: none;
+}
