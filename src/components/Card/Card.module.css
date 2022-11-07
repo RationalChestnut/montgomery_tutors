@@ -1,0 +1,29 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 2px 5px 10px 1px rgb(0, 0, 0, 0.05);
+  width: 300px;
+  height: 275px;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 0px 20px;
+}
+
+.cardTitle {
+  font-weight: 400;
+  margin: 16px 0px;
+}
+
+.cardDescription {
+  color: #6c757d;
+  margin: 0px;
+}
+
+.cardIcon {
+  font-size: 36px;
+  color: white;
+  padding: 6px;
+  border-radius: 12px;
+  margin-top: 12px;
+}

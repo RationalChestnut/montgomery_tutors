@@ -1,3 +1,4 @@
+import { Benefits } from "./BenefitsPage/Benefits.page";
 import Navbar from "./components/Navbar/Navbar.components";
 import { Home } from "./HomePage/Home.page";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <Benefits />
     </div>
   );
 }
