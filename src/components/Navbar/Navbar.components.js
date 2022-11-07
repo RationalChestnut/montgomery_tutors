@@ -41,23 +41,28 @@ const Navbar = () => {
       {showItems && (
         <div className={styles.mobileLinksContainer}>
           <a
-            href="#"
+            href="#home"
             className={styles.mobileLink}
             onClick={() => setShowItems(false)}
           >
             Home
           </a>
           <a
-            href="#"
+            href="#benefits"
             className={styles.mobileLink}
             onClick={() => setShowItems(false)}
           >
             About Us
           </a>
-          <a href="#" className={styles.mobileLink}>
-            Contact Us
+          <a
+            href="#team"
+            className={styles.mobileLink}
+            onClick={() => setShowItems(false)}
+          >
+            Meet the Team
           </a>
-          <a href="#" target="_blank" rel="noreferrer">
+
+          <a href="#enroll">
             <button
               className={styles.mobileButton}
               onClick={() => setShowItems(false)}
