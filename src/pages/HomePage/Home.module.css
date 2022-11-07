@@ -6,6 +6,10 @@
   margin-top: 2.5%;
 }
 
+.homePageContainer button:hover {
+  cursor: pointer;
+}
+
 .left {
   max-width: 40%;
   margin-top: 5%;
@@ -46,6 +50,10 @@
   margin-top: 14px;
 }
 
+.button:hover {
+  background-color: #dfbb50;
+}
+
 .buttonContainer {
   margin-top: 20px;
 }
@@ -54,6 +62,10 @@
   background-color: #3965f7;
   color: white;
   margin-left: 12px;
+}
+
+.blue:hover {
+  background-color: #2d53d9;
 }
 
 .right {

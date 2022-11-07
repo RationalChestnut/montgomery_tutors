@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 export const Enroll = () => {
   return (
-    <div className={styles.contactPageContainer} id="contact">
+    <div className={styles.contactPageContainer} id="enroll">
       <div className={styles.customShapeDividerTop}>
         <svg
           data-name="Layer 1"

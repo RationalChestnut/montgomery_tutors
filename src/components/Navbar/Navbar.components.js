@@ -10,25 +10,25 @@ const Navbar = () => {
     <div className={styles.navbarContainer}>
       <div className={styles.container}>
         <div className={styles.logoContainer}>
-          <a href="#">
+          <a href="#home">
             <img src={logo} alt="CodeUp Logo" className={styles.logo} />
           </a>
         </div>
         <div className={styles.linksContainer}>
           <div className={styles.links}>
-            <a href="#" className={styles.link}>
+            <a href="#home" className={styles.link}>
               Home
             </a>
-            <a href="#" className={styles.link}>
+            <a href="#benefits" className={styles.link}>
               About Us
             </a>
-            <a href="#" className={styles.link}>
+            <a href="#team" className={styles.link}>
               Meet the Team
             </a>
           </div>
         </div>
         <div className={styles.buttonContainer}>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="#enroll">
             <button className={styles.button}>Schedule a session</button>
           </a>
         </div>

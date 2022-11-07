@@ -4,7 +4,7 @@ import { benefitsData } from "../../data/benefits.data";
 import { Card } from "../../components/Card/Card.component";
 export const Benefits = () => {
   return (
-    <div className={styles.benefitsPageContainer}>
+    <div className={styles.benefitsPageContainer} id="benefits">
       <div className={styles.customShapeDividerTop}>
         <svg
           data-name="Layer 1"

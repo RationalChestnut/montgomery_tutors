@@ -8,7 +8,7 @@ import yellow from "../../assets/yellow.jpg";
 
 export const Home = () => {
   return (
-    <div className={styles.homePageContainer}>
+    <div className={styles.homePageContainer} id="home">
       <div className={styles.left}>
         <h2 className={styles.satisfaction}>100% SATISFACTION GUARANTEE</h2>
         <h1 className={styles.title}>
@@ -20,10 +20,14 @@ export const Home = () => {
           subject or sport
         </p>
         <div className={styles.buttonContainer}>
-          <a href="#">
+          <a href="#enroll">
             <button className={styles.button}>Schedule a Session</button>
           </a>
-          <a href="#">
+          <a
+            href="https://forms.gle/t6vffGqsXt559Jce6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className={`${styles.button} ${styles.blue}`}>
               Join our Team
             </button>
