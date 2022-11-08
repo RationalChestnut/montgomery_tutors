@@ -35,24 +35,32 @@ export const Home = () => {
         </div>
       </div>
       <div className={styles.right}>
-        <div className={`${styles.dot} ${styles.blueDot}`}></div>
-        <div className={`${styles.dot} ${styles.yellowDot}`}></div>
-        <div className={`${styles.dot} ${styles.smallPinkLeft}`}></div>
-        <div className={`${styles.dot} ${styles.smallPinkRight}`}></div>
-        <img
-          className={styles.image}
-          src={pink}
-          alt="Girl graduating"
-          id={styles.firstImage}
-        />
-        <img className={styles.image} src={white} alt="Boy graduating" />
-        <img className={styles.image} src={blue} alt="Boy graduating" />
-        <img
-          className={styles.image}
-          src={yellow}
-          alt="Girl graduating"
-          id={styles.lastImage}
-        />
+        <div className={`${styles.imageContainer} ${styles.imageContainer1}`}>
+          <div className={`${styles.dot} ${styles.yellowDot}`}></div>
+          <img
+            className={styles.image}
+            src={pink}
+            alt="Girl graduating"
+            id={styles.firstImage}
+          />
+        </div>
+        <div className={`${styles.imageContainer} ${styles.imageContainer2}`}>
+          <div className={`${styles.dot} ${styles.blueDot}`}></div>
+          <img className={styles.image} src={white} alt="Boy graduating" />
+        </div>
+        <div className={`${styles.imageContainer} ${styles.imageContainer3}`}>
+          <div className={`${styles.dot} ${styles.smallPinkLeft}`}></div>
+          <img className={styles.image} src={blue} alt="Boy graduating" />
+        </div>
+        <div className={`${styles.imageContainer} ${styles.imageContainer4}`}>
+          <div className={`${styles.dot} ${styles.smallPinkRight}`}></div>
+          <img
+            className={styles.image}
+            src={yellow}
+            alt="Girl graduating"
+            id={styles.lastImage}
+          />
+        </div>
       </div>
     </div>
   );
