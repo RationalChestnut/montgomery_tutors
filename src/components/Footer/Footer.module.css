@@ -7,11 +7,12 @@
 .footerContentContainer {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footerContent {
   font-size: 18px;
-  margin: 0px 20px;
+  margin: 6px 20px;
   color: rgba(0, 0, 0, 0.7);
 }
 

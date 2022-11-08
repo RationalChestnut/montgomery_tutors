@@ -9,7 +9,7 @@
   text-align: center;
   color: #eecb61;
   font-size: 22px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .customShapeDividerTop {
@@ -75,4 +75,48 @@
 
 .customDividerContainer .shapeFill {
   fill: #f8fbfc;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .sectionTitle {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 26px;
+  }
+  .sectionTitle {
+    font-size: 18px;
+  }
+  .benefitsPageContainer {
+    margin-top: 32px;
+  }
+  .customDividerContainer svg,
+  .customShapeDividerTop svg {
+    width: calc(100% + 1.3px);
+    height: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 24px;
+  }
+  .sectionTitle {
+    font-size: 18px;
+  }
+  .benefitsPageContainer {
+    margin-top: 42px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .customDividerContainer svg,
+  .customShapeDividerTop svg {
+    width: calc(100% + 1.3px);
+    height: 75px;
+  }
 }
