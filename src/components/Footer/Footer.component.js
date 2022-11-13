@@ -8,7 +8,7 @@ export const Footer = () => {
         <p className={styles.footerContent}>Call: 919-951-9136</p>
         <p className={styles.footerContent}>Email: brian.kw.mason@gmail.com</p>
       </div>
-      <p className={styles.copyright}>© 2022 MocoTutors</p>
+      <p className={styles.copyright}>© 2022 SmartyPantsTutoring</p>
     </div>
   );
 };

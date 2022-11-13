@@ -21,7 +21,7 @@ export const Benefits = () => {
       <h1 className={styles.sectionTitle}>Why Choose Us</h1>
       <h1 className={styles.title}>
         <span>Benefits</span> of peer-to-peer tutoring at{" "}
-        <span>MocoTutors</span>
+        <span>SmartyPantsTutoring</span>
       </h1>
       <div className={styles.cardsContainer}>
         {benefitsData.map((card) => {
