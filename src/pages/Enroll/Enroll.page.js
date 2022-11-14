@@ -100,6 +100,7 @@ export const Enroll = () => {
               <p className={styles.label}>Lesson Frequency</p>
               <select required className={styles.select}>
                 <option value="spontaneous">Spontaneous Lessons</option>
+                <option value="0.5">1x per two weeks</option>
                 <option value="1">1x per week</option>
                 <option value="2">2x per week</option>
                 <option value="3">3x per week</option>
